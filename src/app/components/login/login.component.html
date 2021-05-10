@@ -1,0 +1,8 @@
+<h1>בחר משתמש</h1>
+
+
+    <button value="lakoach" (click)="login=1">lakoach </button>
+    <button value="sochen" (click)="login=2">sochen</button>
+
+<app-lakoach *ngIf="login==1"></app-lakoach>
+<app-sochen  *ngIf="login==2"></app-sochen>
